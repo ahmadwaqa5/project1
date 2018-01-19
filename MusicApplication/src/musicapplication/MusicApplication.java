@@ -17,6 +17,7 @@ public class MusicApplication {
      */
     public static void main(String[] args) {
         // creating a controller object and start application
+	System.out.println("MVC based project");
         MusicAppicationController controller = new MusicAppicationController();
         controller.startApplication();
     }
